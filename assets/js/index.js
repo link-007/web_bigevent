@@ -12,6 +12,11 @@ $(function(){
       })  
     })
 
+    $('#jiben1').on('click',function() {
+        console.log('12345');
+        $('#jiben').attr('class','layui-this')
+    })
+
 })
 //获取用户信息
 function getUserinfo() {
@@ -41,3 +46,4 @@ function renderAvatar(user) {
         $('.text-avater').html(first).show()
     }
 }
+
