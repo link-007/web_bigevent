@@ -20,7 +20,7 @@ $(function () {
                 if (res.status !== 0) {
                     return layer.msg('获取用户信息失败')
                 }
-                // console.log(res);
+                console.log(res);
                 // var form= layui.form
                 form.val('formUserInfo', res.data)
             }
